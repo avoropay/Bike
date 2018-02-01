@@ -1,19 +1,38 @@
-.wrapper {
-width: 1060px;
-outline: 1px sold #cccccc;
-margin: auto;
-padding: 10px;
+footer{
+  height: 30px;
+  width: auto;
+  border-color: #00f;
+  float: left;
 }
-.header {
-height: 40px;
-background-color: #cccccc;
+.menu{
+  height: 30px;
+  width: auto;
+  background: linear-gradient(to top,#000,#fff);
+  float: left;
 }
-.sidebar {
+.clearfix,
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: block;
+    float: none;
+    clear: both;
+}
+.menu li {
+    display: block;
+    float: left;
 
 }
-.content {
-
+/*footer li {
+    display: block;
+    float: left;
+}*/
+.left{
+  height: 630px;
+  width: 300px;
+  float: left;
 }
-.footer {
-
+.right{
+  width: auto;
+  margin: 10px 5px 20px 320px;
 }
